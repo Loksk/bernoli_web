@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 10em;
+    margin-bottom: 0em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul {
+    width: 12em;
+    list-style-type: none;
+}
+
+.footer_link:hover {
+    cursor: pointer;
+}

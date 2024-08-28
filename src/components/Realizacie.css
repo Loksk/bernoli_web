@@ -1,0 +1,158 @@
+.realizacie{
+    border: 1px solid transparent;
+}
+
+.realizacie h2 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.realizacie-grid {
+    display: grid;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 8rem;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 60em;
+    font-family: Helvetica, sans-serif;
+}
+
+.galeria  {
+    grid-area: 1 / 1 / 4 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+}
+
+.galeria-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 3.6em 5.2em;
+    width: 10ch;
+    border-radius: 200px;
+    transition: 0.5s;
+}
+
+.galeria-button:hover {
+    cursor: pointer;
+    background-color: red;
+    border: red solid 1px;
+}
+
+.zakaznici {
+    grid-area: 1 / 5 / 4 / 9;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+
+.zakaznici ul {
+    list-style-type: none;
+    padding: 3em 7em;
+}
+
+.technologie {
+    grid-area: 4 / 1 / 6 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+}
+
+.technologie-paragraf {
+    grid-area: 4 / 3 / 6 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    line-height: 2em;
+}
+
+.materialy {
+    grid-area: 4 / 5 / 6 / 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.technologie p, .materialy p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    width: 20ch;
+    text-align: center;
+}
+
+.materialy-paragraf {
+    grid-area: 4 / 7 / 6 / 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    line-height: 2em;
+}
+
+.statistiky {
+    display: grid;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    grid-template-rows: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 15em;
+}
+
+.statistiky-1, .statistiky-2, .statistiky-3, .statistiky-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.p1 {
+    font-size: 4em;
+    margin-bottom: 0em;
+}
+
+.p2 {
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}

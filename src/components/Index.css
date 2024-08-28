@@ -1,0 +1,58 @@
+.h1-main {
+    color: white;
+    width: 30ch;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.h2-main {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.03rem;
+    margin-left: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 3rem;
+}
+
+.h3-main {
+    color: white;
+    width: 68ch;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    line-height: 2em;
+}
+
+.h1-main h1 {
+    font-weight: bolder;
+}
+
+.h2-main h2, .h3-main h3 {
+    font-weight: 100;
+}
+
+.logo {
+    position: absolute;
+    right: 5em;
+    top: 23em;
+}
+
+.button-viac-main {
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    padding: 3.6em 3em;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 200px;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-viac-main:hover {
+    cursor: pointer;
+    background-color: red;
+    border: red solid 1px;
+}

@@ -1,0 +1,39 @@
+header {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: end;
+}
+
+.header-logo {
+    position: absolute;
+    left: 5em;
+    margin-top: -20px;
+    max-width: 150px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-sluzby, .header-realizacie, .header-oNas, .header-kontakt {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    transition: 0.5s;
+}
+
+.header-kontakt {
+    margin-right: 4em;
+}
+
+.header-sluzby:hover, .header-realizacie:hover, .header-oNas:hover, .header-kontakt:hover{
+    cursor: pointer;
+    color: red;
+}

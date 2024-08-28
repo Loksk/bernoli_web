@@ -1,0 +1,83 @@
+.oNas h2 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.oNas-grid {
+    display: grid;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oNas-text {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.oNas-text-inside {
+    height: 40em;
+    margin: 5em 5em;
+    font-size: 0.9em;
+}
+
+.text-p1, .text-p2{
+    margin: 0;
+    width: 63.5ch;
+}
+
+.text-p2 {
+    padding-top: 1.5em;  
+    padding-bottom: 1em;  
+}
+
+.oNas-text-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding-bottom: 2em;
+    line-height: 1.75em;
+}
+
+.oNas-text-grid ul {
+    list-style-type: none;
+    padding: 1em;
+}   
+
+.text-p5 {
+    width: 50ch;
+    padding-bottom: 2em;
+}
+
+.kontakt-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3.6em 4.8em;
+    width: 10ch;
+    border-radius: 200px;
+    transition: 0.5s;
+}
+
+.kontakt-button:hover {
+    cursor: pointer;
+    background-color: red;
+    border: red solid 1px;
+} 
+
+.oNas-mapa {
+    background: black;
+    border: 1px solid white;
+}

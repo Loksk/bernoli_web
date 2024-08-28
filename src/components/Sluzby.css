@@ -1,0 +1,122 @@
+.sluzby {
+    border: 1px solid transparent;
+}
+
+.sluzby-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    font-family: Helvetica, sans-serif;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    height: 50em;
+}
+
+.montaz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.montaz-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
+
+.oprava {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.oprava-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
+
+.sluzby-paragraf {
+    grid-area: 1 / 3 / 1 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.sluzby-paragraf p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.prehliadky {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.prehliadky-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
+
+.podpora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.podpora-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
+
+.specialisti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.specialisti-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
+
+.pristup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.pristup-icon {
+    width: 10em;
+    margin-bottom: 2em;
+}
